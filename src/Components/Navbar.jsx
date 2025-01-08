@@ -137,7 +137,7 @@ const Navbar = () => {
 
           {/* sun icon */}
           <svg
-            className="swap-on h-8 w-8 fill-current text-accent"
+            className="swap-on h-8 w-8 fill-current text-warning"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
           >
@@ -146,7 +146,7 @@ const Navbar = () => {
 
           {/* moon icon */}
           <svg
-            className="swap-off h-8 w-8 fill-current text-accent"
+            className="swap-off h-8 w-8 fill-current text-white"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
           >
