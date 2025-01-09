@@ -21,20 +21,23 @@ const Category = () => {
         modules={[Pagination]}
         className="mySwiper"
       >
-        <SwiperSlide>
-          <img src={slide1} alt="Food Category" />
-        </SwiperSlide>
-        <SwiperSlide>
+       
+        <SwiperSlide className=" relative">
           <img src={slide2} alt="Food Category" />
+          <h4 className="uppercase absolute bottom-5 left-1/2 -translate-x-1/2  text-white font-bold   drop-shadow-2xl text-2xl">Pizza</h4>
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide className=" relative">
           <img src={slide3} alt="Food Category" />
+          <h4 className="uppercase absolute bottom-5 left-1/2 -translate-x-1/2  text-white font-bold   drop-shadow-2xl text-2xl">Soup</h4>
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide className=" relative">
           <img src={slide4} alt="Food Category" />
+          <h4 className="uppercase absolute bottom-5 left-1/2 -translate-x-1/2  text-white font-bold   drop-shadow-2xl text-2xl">Desserts</h4>
         </SwiperSlide>
-        <SwiperSlide>
-          <img src={slide5} alt="Food Category" />
+        <SwiperSlide className=" relative">
+          <img src={slide1} alt="Food Category" className=" " />
+          <h4 className="uppercase absolute bottom-5 left-1/2 -translate-x-1/2  text-white font-bold   drop-shadow-2xl text-2xl">Salad</h4>
+        
         </SwiperSlide>
         
         
