@@ -10,12 +10,12 @@ import sliderImg6 from "../../assets/home/06.png"
 
 const Banner = () => {
     return (
-        <Carousel className="">
-        <div className="max-h-svh">
-            <img src={sliderImg1} className="rounded-b-2xl"/>
+        <Carousel className=" lg:h-3/4">
+        <div className="  ">
+            <img src={sliderImg1} className="rounded-b-2xl w-full lg:h-full"/>
         </div>
         <div>
-            <img src={sliderImg2} className="rounded-b-2xl" />
+            <img src={sliderImg2} className="rounded-b-2xl lg:h-3/4" />
         </div>
         <div>
             <img src={sliderImg3} className="rounded-b-2xl"/>
