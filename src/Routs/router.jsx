@@ -30,6 +30,11 @@ import OurMenu from "../Pages/OurMenu/OurMenu";
             path: "/menu",
             element: <OurMenu/>
         },
+        {
+            path: "/shop",
+            element: <OurMenu/>
+        },
+       
       ]
     },
   ]);
