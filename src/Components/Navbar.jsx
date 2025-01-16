@@ -17,7 +17,7 @@ const Navbar = () => {
         Home
       </NavLink>
       <NavLink
-        to={"/contact"}
+        to={"/contact-us"}
         className={({ isActive }) =>
           `bg-transparent font-semibold  ${
             isActive ? "text-[#EEFF25]" : "text-white"
